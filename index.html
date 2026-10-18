@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disaster Alert Ethiopia</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      color: #1e293b;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #123047;
+      color: white;
+      padding: 24px 16px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 27px;
+      margin-bottom: 8px;
+    }
+
+    nav {
+      background: #e85d04;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 8px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 28px 18px;
+      text-align: center;
+      background: white;
+    }
+
+    .hero h2 {
+      color: #123047;
+      margin-bottom: 10px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px 15px;
+    }
+
+    .notice {
+      background: #fff3cd;
+      border-left: 5px solid #e85d04;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 22px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px 15px;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px #00000010;
+    }
+
+    .card h3 {
+      margin-bottom: 8px;
+      color: #123047;
+    }
+
+    .icon {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    section {
+      margin-bottom: 28px;
+    }
+
+    section h2 {
+      margin-bottom: 14px;
+      color: #123047;
+    }
+
+    .tips li {
+      margin: 10px 0 10px 22px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #e85d04;
+      color: white;
+      padding: 11px 18px;
+      border-radius: 7px;
+      text-decoration: none;
+      margin-top: 14px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #123047;
+      color: white;
+      text-align: center;
+      padding: 20px 12px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🌍 Disaster Alert Ethiopia</h1>
+    <p>Awareness • Preparedness • Safety</p>
+  </header>
+
+  <nav>
+    <a href="#hazards">Hazards</a>
+    <a href="#safety">Safety Tips</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Be Prepared, Stay Safe!</h2>
+    <p>Learn about disasters and how to protect your community.</p>
+    <a class="button" href="#safety">Learn Safety Tips</a>
+  </div>
+
+  <main class="container">
+
+    <div class="notice">
+      <strong>⚠️ Important Notice</strong>
+      <p>
+        This website provides educational information.
+        It does not currently display verified live alerts.
+        Follow official authorities for current warnings.
+      </p>
+    </div>
+
+    <section id="hazards">
+      <h2>🌪️ Types of Hazards</h2>
+
+      <div class="grid">
+        <div class="card">
+          <div class="icon">🌊</div>
+          <h3>Flood</h3>
+          <p>Learn how heavy rain and overflowing water can affect communities.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon">☀️</div>
+          <h3>Drought</h3>
+          <p>Understand water shortages and their effects on people and farming.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon">🌎</div>
+          <h3>Earthquake</h3>
+          <p>Learn how ground shaking happens and how to prepare safely.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon">🔥</div>
+          <h3>Wildfire</h3>
+          <p>Understand fire risks and the importance of prevention.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="safety">
+      <h2>🛡️ Safety Tips</h2>
+
+      <div class="card tips">
+        <h3>Before a Disaster</h3>
+        <ul>
+          <li>Prepare an emergency kit.</li>
+          <li>Know safe places and evacuation routes.</li>
+          <li>Follow trusted weather and safety updates.</li>
+        </ul>
+
+        <h3>During a Disaster</h3>
+        <ul>
+          <li>Stay calm and follow official instructions.</li>
+          <li>Move away from immediate danger.</li>
+          <li>Never walk or drive through floodwater.</li>
+        </ul>
+
+        <h3>After a Disaster</h3>
+        <ul>
+          <li>Avoid damaged buildings and fallen power lines.</li>
+          <li>Use safe drinking water.</li>
+          <li>Help others when it is safe to do so.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>📚 About This Project</h2>
+      <div class="card">
+        <p>
+          Disaster Alert Ethiopia is an educational project
+          designed to help college students understand hazards,
+          disaster risk reduction, preparedness and community safety.
+        </p>
+        <p>
+          Created for learning and awareness.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Disaster Alert Ethiopia © 2026</p>
+    <p>Learn Today. Be Prepared Tomorrow.</p>
+  </footer>
+
+</body>
+</html>
